@@ -1,3 +1,20 @@
+1. генерации AuthModule
+npx nest g module auth
+npx nest g controller auth
+npx nest g service auth
+
+Использование AuthService для реализации логики аутентификации и AuthControllerдля предоставления конечных точек аутентификации.
+
+2. При реализации AuthServiceнам будет полезно инкапсулировать пользовательские операции в UsersService
+$ npx nest g module users
+$ npx nest g service users
+
+3. Токен JWT
+npm install --save @nestjs/jwt 
+это пакет утилит, который помогает с манипуляциями JWT. Это включает в себя генерацию и проверку токенов JWT.
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
