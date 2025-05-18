@@ -96,23 +96,3 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
-
-
-1. Passport предоставляет стратегию, называемую passport-local , которая реализует механизм аутентификации имени пользователя/пароля,
-$ npm install --save @nestjs/passport passport passport-local 
-
-2. $ npm install --save-dev @types/passport-local
-
-3. генераця AuthModuleи :
-$ npx nest g module auth
-
-4. генерация  AuthService:
-$ npx nest g service auth
-
-5. При реализации AuthServiceнам  инкапсулирую пользовательские операции в UsersService
-$ npx nest g module users
-$ npx nest g service users
-
-6. поддержки требований JWT:
-npm install --save @nestjs/jwt passport-jwt это пакет утилит, который помогает с манипуляциями JWT. 
-npm install --save-dev @types/passport-jwt passport-jwtПакет — это пакет Passport, который реализует стратегию JWT и @types/passport-jwtпредоставляет определения типов TypeScript.
